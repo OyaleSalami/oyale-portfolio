@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <rect width="400" height="240" rx="24" fill="#f7f7f7" stroke="#ddd" stroke-width="2"/>
+  <rect x="90" y="40" width="220" height="80" rx="20" fill="#fff" stroke="#ccc" stroke-width="3"/>
+  <circle cx="140" cy="80" r="20" fill="#ddd"/>
+  <circle cx="260" cy="80" r="20" fill="#ddd"/>
+  <path d="M150 150 L180 100 L220 140 L250 90" stroke="#bbb" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M150 150 Q200 190 250 150" stroke="#bbb" stroke-width="12" fill="none"/>
+  <text x="200" y="220" font-family="Roboto, sans-serif" font-size="28" font-weight="700" fill="#555" text-anchor="middle">Foothold</text>
+</svg>

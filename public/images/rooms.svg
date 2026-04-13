@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <rect width="400" height="240" rx="24" fill="#f7f7f7" stroke="#ddd" stroke-width="2"/>
+  <path d="M90 170 L140 90 L190 170 Z" fill="#fff" stroke="#ccc" stroke-width="3"/>
+  <rect x="135" y="105" width="110" height="65" rx="12" fill="#fff" stroke="#ccc" stroke-width="3"/>
+  <path d="M250 170 L310 130 L330 170 Z" fill="#fff" stroke="#ccc" stroke-width="3"/>
+  <line x1="90" y1="170" x2="330" y2="170" stroke="#ddd" stroke-width="4"/>
+  <text x="200" y="210" font-family="Roboto, sans-serif" font-size="28" font-weight="700" fill="#555" text-anchor="middle">Rooms</text>
+</svg>
