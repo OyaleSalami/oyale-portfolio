@@ -1,89 +1,137 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Oyale Salami - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Victor Oyale Salami</h1>
+        <p>Software Engineer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.12.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.12.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.12.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"I enjoy taking on new challenges and tackling different problems"</p>
+        <p>I am a Software Engineer specializing in Game Development, Backend Development, and more. I hold a B.Sc in Computer Science (2019-2024).</p>
+        <p>I speak English and can read and write Koine Greek (Intermediate). I am good with Math and play the guitar.</p>
+    </section>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Programmer (Unity & .Net Backend) - Great Valley Technologies (Contract)</h3>
+            <p>November 2025 - Current</p>
+            <p>Working on a PvP multiplayer game for both iOS and Android.</p>
+        </div>
+        <div class="job">
+            <h3>Gameplay Programmer - Nok Animation Studios</h3>
+            <p>October 2021 - Current</p>
+            <p>Handle gameplay design, prototyping and scripting of levels on an unannounced game. Worked on a C#/C++ based multiplayer networking solution for games.</p>
+        </div>
+        <div class="job">
+            <h3>Gameplay Programmer - Christian Game Developers Conference</h3>
+            <p>2023 & 2024</p>
+            <p>Worked on VR game Foothold for Meta Quest 2 & 3, and Web game Christmas On The Fritz.</p>
+        </div>
+        <div class="job">
+            <h3>CGDC Community Lead - Google Developers Student Club Lead</h3>
+            <p>2022 - 2023</p>
+            <p>Organized and hosted events and workshops on Web Development, ML/AI, etc. Worked with students and organizations to solve local issues with technology.</p>
+        </div>
+        <div class="job">
+            <h3>Contract Work</h3>
+            <p>2024</p>
+            <p>Worked on CAM software for a client, writing a GCode interpreter and interfacing with Unity simulation.</p>
+        </div>
+        <div class="job">
+            <h3>Extras</h3>
+            <p>Virtual Exchange Scholar (IGDA-F 2022), Google DevFest Volunteer (2022 & 2023), Member of Internet Society.</p>
+        </div>
+    </section>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>ConnectBoy Games</h3>
+            <p>A mobile gaming platform with multiplayer games like Elite Archery, Connect Four, Dots and Boxes, Mini Golf 3D, Compact Soccer, and Tic Tac Toe. Play with friends worldwide in real-time experiences across iOS and Android.</p>
+            <a href="https://connectboy-games.web.app/">Website</a>
+        </div>
+        <div class="project">
+            <h3>Rooms</h3>
+            <p>Project on GitHub.</p>
+            <a href="https://github.com/OyaleSalami/Rooms">GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Foothold</h3>
+            <p>VR tower defense game for Meta Quest 2 & 3. Protect your community of survivors from the corrupting forces of Malice. Use a gravity glove to collect scraps, build turrets, and fight enemies inspired by Ephesians 4.</p>
+            <a href="https://store.steampowered.com/app/2715290/Foothold/">Steam</a>
+        </div>
+        <div class="project">
+            <h3>Christmas On The Fritz</h3>
+            <p>16-bit adventure game. Santa is kidnapped by rogue Snowmen, so Fritz the elf rescues him. Solve puzzles, explore an ice cave, and battle evil toys with melee and ranged weapons.</p>
+            <a href="https://cgdc-community-game.itch.io/christmas-on-the-fritz">Itch.io</a>
+        </div>
+        <div class="project">
+            <h3>Axes Desktop</h3>
+            <p>CAM software with GCode interpreter.</p>
+            <a href="https://github.com/OyaleSalami/Axes-Desktop">GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Jam Game (Nan)</h3>
+            <p>2nd Runner up in Africomicade game jam (2023).</p>
+            <a href="https://oyalesalami.itch.io/nan">Itch.io</a>
+        </div>
+        <div class="project">
+            <h3>SML</h3>
+            <p>Math library for 3D graphics applications, handling matrices, vectors, and quaternions with hardware acceleration.</p>
+            <a href="https://github.com/OyaleSalami/SML">GitHub</a>
+        </div>
+        <div class="project">
+            <h3>StudioHead Games</h3>
+            <p>Small games developed in free time.</p>
+            <a href="https://oyalesalami.itch.io/">Itch.io</a>
+        </div>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Lua</li>
+            <li>GDScript</li>
+            <li>Python</li>
+            <li>GCode</li>
+            <li>Unity</li>
+            <li>Godot</li>
+            <li>Blender</li>
+            <li>Git</li>
+            <li>Inkscape</li>
+            <li>Codecks</li>
+            <li>Jira</li>
+        </ul>
+        <p><strong>Areas of Expertise:</strong> Game Development, Backend Development, Game Design, Network Programming, Compiler Construction, System Programming, Simulations</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:salamivictor15@gmail.com">salamivictor15@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/oyalesalami">oyalesalami</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/oyalesalami">oyalesalami</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Victor Oyale Salami</p>
+    </footer>
+</body>
 </html>
